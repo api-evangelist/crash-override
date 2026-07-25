@@ -1,9 +1,30 @@
 aid: crash-override
 name: Crash Override
-description: 'Crash Override is a company surfaced as a portfolio company of bessemer-venture-partners,
-  gv and added to the API Evangelist network as a stub for enrichment. Sector: cybersecurity. This profile
-  is a lead awaiting the enrichment pipeline.'
+description: 'Crash Override is a software supply chain security company building a
+  control plane for software development in the agentic era. It monitors code from
+  developers and AI coding agents, inspects builds across CI/CD systems (GitHub Actions,
+  GitLab CI, CircleCI, Jenkins), cryptographically tags software artifacts, and tracks
+  them from development through production. The company delivers its capabilities primarily
+  through open-source tools — Chalk (code provenance tagging) and Ocular (Kubernetes-native
+  software asset scanning orchestration) — plus a hosted control plane with enterprise
+  SAML 2.0, OIDC, and SCIM support. Founded by Mark Curphey (founder of OWASP) and
+  John Viega, and backed by GV, Syn Ventures, Bessemer Venture Partners, and Blackstone.
+  Philosophy: "Tag. Track. Trust." No public REST API or OpenAPI specification is published
+  at this time; this profile was enriched from the company''s public web, GitHub org,
+  and security surface.'
 url: https://raw.githubusercontent.com/api-evangelist/crash-override/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://crashoverride.com/logo-wordmark.avif
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -13,10 +34,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Cybersecurity
+- Software Supply Chain
+- Application Security
+- Provenance
+- DevSecOps
+- Open Source
+- Artifact Tracking
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -26,3 +53,34 @@ maintainers:
 common:
 - type: Website
   url: https://crashoverride.com/
+- type: DeveloperPortal
+  url: https://crashoverride.com/docs
+- type: Documentation
+  url: https://crashoverride.com/docs
+- type: Blog
+  url: https://crashoverride.com/blog
+- type: GitHubOrganization
+  url: https://github.com/crashappsec
+- type: Support
+  url: https://crashoverride.com/contact
+- type: PrivacyPolicy
+  url: https://crashoverride.com/privacy
+- type: TermsOfService
+  url: https://crashoverride.com/terms
+- type: WellKnown
+  url: well-known/crash-override-well-known.yml
+- type: SecurityTxt
+  url: well-known/crash-override-security.txt
+- type: DomainSecurity
+  url: security/crash-override-domain-security.yml
+- type: VulnerabilityDisclosure
+  url: security/crash-override-vulnerability-disclosure.yml
+- type: Security
+  url: https://crashoverride.com/.well-known/security.txt
+- type: LLMsTxt
+  url: llms/crash-override-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

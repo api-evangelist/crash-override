@@ -1,0 +1,28 @@
+# Crash Override
+
+> Crash Override is a software supply chain security company building a control plane for software development in the agentic era. It monitors code from developers and AI coding agents, inspects builds across CI/CD, cryptographically tags artifacts, and tracks them from development through production. Founded by Mark Curphey (founder of OWASP) and John Viega, and backed by GV, Syn Ventures, Bessemer Venture Partners, and Blackstone. Its philosophy: "Tag. Track. Trust."
+
+Note: Crash Override delivers its capabilities primarily through open-source tools (Chalk, Ocular) and a hosted control plane rather than a public REST API. No OpenAPI specification is published at this time.
+
+## Products
+- [Chalk](https://github.com/crashappsec/chalk): Open-source tool that follows code from development, through builds, and into production via cryptographic tagging (Nim).
+- [Ocular](https://github.com/crashappsec/ocular): Kubernetes-native software asset scanning orchestration system (Go).
+- [setup-chalk-action](https://github.com/marketplace/actions/setup-chalk): GitHub Action to integrate Chalk into CI/CD pipelines.
+
+## Docs
+- [Documentation](https://crashoverride.com/docs): Chalk and Ocular installation, configuration, CI/CD integration, and use cases.
+- [Open Source](https://crashoverride.com/open-source): Chalk and Ocular engines.
+- [Knowledge Base](https://crashoverride.com/resources/knowledge-base)
+- [FAQ](https://crashoverride.com/faq)
+- [Blog](https://crashoverride.com/blog)
+
+## Company
+- [Website](https://crashoverride.com/)
+- [About](https://crashoverride.com/about)
+- [Contact / Demo](https://crashoverride.com/contact)
+- [GitHub Organization](https://github.com/crashappsec)
+
+## Security
+- [security.txt](https://crashoverride.com/.well-known/security.txt): Coordinated disclosure contact security@crashoverride.com.
+- [Privacy Policy](https://crashoverride.com/privacy)
+- [Terms](https://crashoverride.com/terms)

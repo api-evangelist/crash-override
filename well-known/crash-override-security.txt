@@ -1,0 +1,20 @@
+# ─── CRASH OVERRIDE · SECURITY.TXT ─────────────────────────
+#
+#       ╔══╗ ╔══╗
+#       ║  ║ ║  ║  we read every one.
+#       ╚══╝ ╚══╝  responsible disclosure appreciated.
+#
+#   HACK THE PLANET. (but responsibly — coordinated disclosure)
+#   We tag it, track it, and we'll trust it.
+# ───────────────────────────────────────────────────────────
+
+Contact: mailto:security@crashoverride.com
+Contact: https://crashoverride.com/contact
+Expires: 2027-04-23T00:00:00.000Z
+Preferred-Languages: en
+Canonical: https://crashoverride.com/.well-known/security.txt
+Policy: https://crashoverride.com/privacy
+Acknowledgments: https://crashoverride.com/about
+
+# Greetz to the crew: Zero Cool · Acid Burn · Cereal Killer · Lord Nikon
+# · Phantom Phreak. "There is no right and wrong. There's only fun and boring."
