@@ -53,7 +53,7 @@ tags:
 - Application Security
 - Provenance
 - DevSecOps
-- Open-Source
+- Open Source
 - Artifact Tracking
 tags_raw:
 - Company
@@ -64,6 +64,7 @@ tags_raw:
 - DevSecOps
 - Open Source
 - Artifact Tracking
+- Open-Source
 apis: []
 maintainers:
 - FN: Kin Lane
